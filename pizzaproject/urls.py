@@ -25,6 +25,6 @@ urlpatterns = [
     path('createregular/',views.PizzaCrud.as_view()),
     path('getall/',views.GetAllPizza.as_view()),
     path('delete/<int:id>/',views.GetAllPizza.as_view()),
-    path('update/<int:id>/',views.GetAllPizza.as_view()),
+    
 
 ]
